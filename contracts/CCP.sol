@@ -95,6 +95,7 @@ contract CCP {
         require(authorizationContract.checkRegisteredUsers(msg.sender), "User is not registered");
         _;
     }
+    // the function starts here
 
     function createFreeContent(
         string memory _title,
